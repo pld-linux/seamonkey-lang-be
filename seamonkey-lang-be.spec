@@ -25,10 +25,10 @@ Belarusuian resources for SeaMonkey.
 Bialoruskie pliki jêzykowe dla SeaMonkeya.
 
 %prep
-%setup -q -c -T
-unzip %{SOURCE0}
+%setup -q -c
 install %{SOURCE1} .
-./gen-installed-chrome.sh locale bin/chrome/{BY,be-BY,be-unix}.jar > lang-be-installed-chrome.txt
+./gen-installed-chrome.sh locale bin/chrome/{BY,be-BY,be-unix}.jar \
+	> lang-be-installed-chrome.txt
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%{_chromedir}/BY.jar
 %{_chromedir}/be-BY.jar
 %{_chromedir}/be-unix.jar
-%{_chromedir}/BY.jar
 %{_chromedir}/lang-be-installed-chrome.txt
