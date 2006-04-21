@@ -1,5 +1,5 @@
 Summary:	Belarusian resources for SeaMonkey
-Summary(pl):	Bialoruskie pliki jêzykowe dla SeaMonkeya
+Summary(pl):	Bia³oruskie pliki jêzykowe dla SeaMonkeya
 Name:		seamonkey-lang-be
 Version:	1.0
 Release:	1
@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Belarusuian resources for SeaMonkey.
 
 %description -l pl
-Bialoruskie pliki jêzykowe dla SeaMonkeya.
+Bia³oruskie pliki jêzykowe dla SeaMonkeya.
 
 %prep
 %setup -q -c
