@@ -2,7 +2,7 @@
 %define	_reg	BY
 %define	_lare	%{_lang}-%{_reg}
 Summary:	Belarusian resources for SeaMonkey
-Summary(pl):	Bia³oruskie pliki jêzykowe dla SeaMonkeya
+Summary(pl.UTF-8):   BiaÅ‚oruskie pliki jÄ™zykowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
 Version:	1.0.5
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Belarusuian resources for SeaMonkey.
 
-%description -l pl
-Bia³oruskie pliki jêzykowe dla SeaMonkeya.
+%description -l pl.UTF-8
+BiaÅ‚oruskie pliki jÄ™zykowe dla SeaMonkeya.
 
 %prep
 %setup -q -c
