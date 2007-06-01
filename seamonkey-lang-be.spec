@@ -4,12 +4,12 @@
 Summary:	Belarusian resources for SeaMonkey
 Summary(pl.UTF-8):	Białoruskie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
-Version:	1.0.5
+Version:	1.1.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
-# Source0-md5:	acecdd858d8341b1d08a4f08d317f7eb
+# Source0-md5:	1e29d76c1260db30db22031ca0595421
 Source1:	gen-installed-chrome.sh
 URL:		http://www.mozilla.org/projects/seamonkey/
 BuildRequires:	unzip
